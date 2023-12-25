@@ -1,0 +1,25 @@
+{
+    "mqtt": {
+        "enabled": 1,
+        "host": "mqtt.example.com",
+        "port": 1883,
+        "username": "username",
+        "password": "password",
+        "topic": "my-topic"
+    },
+    "system": {
+        "ntp": "pool.ntp.org"
+    },
+    "smtp": {
+        "enabled": 1,
+        "host": "smtp.example.com",
+        "port": 465,
+        "email": "mail@example.com",
+        "password": "password",
+        "recipient": "my.mail@example.com"
+    },
+    "wifi": {
+        "ssid": "my-wifi",
+        "password": "password"
+    }
+}
